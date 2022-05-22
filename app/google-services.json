@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "851719188669",
+    "project_id": "crueltyrecoverapp",
+    "storage_bucket": "crueltyrecoverapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851719188669:android:9896a3dfb42ac5e36f87d4",
+        "android_client_info": {
+          "package_name": "com.nexis.cruletyrecoverapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851719188669-l9sie7ddtjnum9ikk9f2s9d6se5sia72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdbsQ-bqoFxEG7fPpFJNEAbSTkp55jcz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851719188669-l9sie7ddtjnum9ikk9f2s9d6se5sia72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
