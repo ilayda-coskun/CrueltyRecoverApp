@@ -17,13 +17,14 @@ import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.nexis.cruletyrecoverapp.R;
 
 public class GirisYapActivity extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
     private LinearLayout mLinear;
-
+    private FirebaseUser mUser;
     private TextInputLayout inputEmail;
     private TextInputLayout inputSifre;
 
@@ -36,6 +37,7 @@ public class GirisYapActivity extends AppCompatActivity {
     private void init() {
         mLinear = (LinearLayout) findViewById(R.id.girisYap_linear);
         mAuth = FirebaseAuth.getInstance();
+        mUser= mAuth.getCurrentUser();
 
         inputEmail = (TextInputLayout) findViewById(R.id.girisYap_input_email);
         inputSifre = (TextInputLayout) findViewById(R.id.girisYap_input_sifre);
@@ -50,6 +52,10 @@ public class GirisYapActivity extends AppCompatActivity {
         setContentView(R.layout.activity_giris_yap);
 
         init();
+        /*if (mUser!=null){
+            finish();
+            startActivity(new Intent(GirisYapActivity.this, MarkaAraActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
+        }*/
 
         getSupportActionBar().hide();
     }
@@ -66,7 +72,7 @@ public class GirisYapActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             Toast.makeText(GirisYapActivity.this, "Giriş Başarılı", Toast.LENGTH_SHORT).show();
                             finish();
-                            startActivity(new Intent(GirisYapActivity.this, MarkaAraActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
+                            startActivity(new Intent(GirisYapActivity.this, SekmeActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
                         } else {
                             Snackbar.make(mLinear, task.getException().getMessage(), Snackbar.LENGTH_SHORT).show();
                         }

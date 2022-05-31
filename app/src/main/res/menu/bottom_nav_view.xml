@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_nav_ic_search"
+        android:icon="@drawable/ic_search"
+        android:title="Arama"></item>
+
+    <item
+        android:id="@+id/bottom_nav_ic_products"
+        android:icon="@drawable/ic_products"
+        android:title="Ürünler"></item>
+
+    <item
+        android:id="@+id/bottom_nav_ic_info"
+        android:icon="@drawable/ic_info"
+        android:title="Hakkında"></item>
+    <item
+        android:id="@+id/addNewItem"
+        android:icon="@drawable/ic_add_product"
+        android:title="Yeni Ürün ekle"></item>
+
+</menu>

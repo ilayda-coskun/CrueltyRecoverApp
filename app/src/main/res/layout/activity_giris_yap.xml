@@ -42,6 +42,7 @@
                 android:hint="Email Giriniz"
                 android:id="@+id/girisYap_edit_email"
                 android:textSize="17sp"
+                android:text="test@gmail.com"
                 android:inputType="textEmailAddress"
                 android:maxLength="35"
                 android:textStyle="bold"
@@ -70,6 +71,7 @@
                 android:textSize="17sp"
                 android:inputType="textPassword"
                 android:maxLength="20"
+                android:text="123456"
                 android:textStyle="bold"
                 android:layout_height="wrap_content">
 

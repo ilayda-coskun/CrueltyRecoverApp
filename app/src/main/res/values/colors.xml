@@ -13,4 +13,7 @@
     <color name="KayitOlBtnTextColor">#DAC0C9</color>
     <color name="KayitOlBtnBackgroundColor">#E8769D</color>
     <color name="KayitOlTextColor">#E8769D</color>
+
+    <color name="BottomViewSecilenColor">#E8769D</color>
+    <color name="BottomViewSecilmeyenColor">#CA9AAB</color>
 </resources>

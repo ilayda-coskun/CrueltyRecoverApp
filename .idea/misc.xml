@@ -9,7 +9,23 @@
         <entry key="..\:/Users/ilayd/AndroidStudioProjects/CruletyRecoverApp/app/src/main/res/layout/activity_kayit_ol.xml" value="0.20052083333333334" />
         <entry key="..\:/Users/ilayd/AndroidStudioProjects/CruletyRecoverApp/app/src/main/res/layout/activity_main.xml" value="0.11302083333333333" />
         <entry key="..\:/Users/ilayd/AndroidStudioProjects/CruletyRecoverApp/app/src/main/res/layout/activity_marka_ara.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ilayd/AndroidStudioProjects/CruletyRecoverApp/app/src/main/res/layout/activity_sekme.xml" value="0.1" />
+        <entry key="..\:/Users/ilayd/AndroidStudioProjects/CruletyRecoverApp/app/src/main/res/layout/fragment_add_item.xml" value="0.15217391304347827" />
+        <entry key="..\:/Users/ilayd/AndroidStudioProjects/CruletyRecoverApp/app/src/main/res/layout/fragment_arama.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ilayd/AndroidStudioProjects/CruletyRecoverApp/app/src/main/res/layout/fragment_hakkinda.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ilayd/AndroidStudioProjects/CruletyRecoverApp/app/src/main/res/layout/fragment_product_detail.xml" value="0.15217391304347827" />
+        <entry key="..\:/Users/ilayd/AndroidStudioProjects/CruletyRecoverApp/app/src/main/res/layout/fragment_urunler.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/ilayd/AndroidStudioProjects/CruletyRecoverApp/app/src/main/res/layout/kayit_ol_giris_button.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/ilayd/AndroidStudioProjects/CruletyRecoverApp/app/src/main/res/menu/bottom_nav_view.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/layout/activity_giris_yap.xml" value="0.13069908814589665" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.26875" />
+        <entry key="app/src/main/res/layout/fragment_add_item.xml" value="0.13069908814589665" />
+        <entry key="app/src/main/res/layout/fragment_arama.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_product_detail.xml" value="0.26875" />
+        <entry key="app/src/main/res/layout/fragment_urunler.xml" value="0.18333333333333332" />
+        <entry key="app/src/main/res/layout/layout_product_item.xml" value="0.26875" />
+        <entry key="app/src/main/res/layout/layout_urun_adapter_item.xml" value="0.18333333333333332" />
+        <entry key="app/src/main/res/menu/bottom_nav_view.xml" value="0.22870370370370371" />
       </map>
     </option>
   </component>

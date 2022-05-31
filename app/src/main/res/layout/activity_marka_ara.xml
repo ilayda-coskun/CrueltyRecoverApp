@@ -31,7 +31,8 @@
         android:layout_gravity="center"
         android:text="MARKA ARA"
         android:textColor="@color/KayitOlBtnTextColor"
-        android:onClick="btnMarkaAra"/>
+        android:onClick="btnMarkaAra"
+        android:id="@+id/btnMarkaAra"/>
 
 
 </LinearLayout>

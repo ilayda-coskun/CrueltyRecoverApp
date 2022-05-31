@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:id="@+id/marka_ara_linear"
+        tools:context=".Fragments.AramaFragment">
+
+        <ImageView
+            android:id="@+id/marka_ara_resim_id"
+            android:layout_width="213dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/marka_ara_resim"/>
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:id="@+id/searchView"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:text="MARKA ARA"
+            android:textColor="@color/KayitOlBtnTextColor"
+            android:onClick="btnMarkaAra"
+            android:id="@+id/btnMarkaAra"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerUrun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+    </LinearLayout>
+
+</layout>
